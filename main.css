@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+form {
+  width: 40%;
+  margin: 50px auto;
+  padding: 20px 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+form div {
+  width: 90%;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-direction: column;
+}
+form div label {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: rgb(110, 107, 107);
+}
+form div label::after {
+  content: "*";
+  font-size: 16px;
+  color: red;
+}
+form div input {
+  border-radius: 2px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding: 3px 10px;
+  outline: none;
+}
+form button {
+  width: 40%;
+  padding: 10px;
+  font-size: 20px;
+  display: block;
+  margin: 10px auto;
+  background-color: green;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#show_btn {
+  width: 30%;
+  display: block;
+  margin: 30px auto;
+  padding: 10px;
+  background-color: rgb(73, 132, 214);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+table{
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+}

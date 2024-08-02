@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <!-- Form -->
+    <form onsubmit="getPersonData()">
+      <div>
+        <label for="name_input">Name</label>
+        <input required type="text" id="name_input" />
+      </div>
+      <div>
+        <label for="lastname_input">Last Name</label>
+        <input required type="text" id="lastname_input" />
+      </div>
+      <div>
+        <label for="age_input">Age</label>
+        <input required type="number" id="age_input" />
+      </div>
+      <div>
+        <label for="email_input">Email</label>
+        <input required type="email" id="email_input" />
+      </div>
+      <button type="submit" id="submit_btn">Submit</button>
+    </form>
+
+    <button id="show_btn" onclick="showPerson()">Show the data</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+          <th>Email</th>
+          <th>Register date</th>
+        </tr>
+      </thead>
+
+      <tbody>
+<!-- 
+      <tr>
+        <td></td>
+      </tr> -->
+      </tbody>
+
+    </table>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
